@@ -32,3 +32,5 @@ results.sort(key=lambda kv: (kv[1], kv[0][0], kv[0][1], kv[0][2]))
 
 for (a, b, c), area in results:
     print((a, b, c), ":", area)
+
+print("COMPLETED")
